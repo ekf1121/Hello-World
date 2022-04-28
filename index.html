@@ -2,31 +2,49 @@
 <html lang="ko" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title> CSS3 실습 </title>
+    <title> 돌멩이 낙서장 </title>
 
 <style>
       .center{text-align:center; color:white;}
-      .bg1{background:url('finn.png');}
       a {text-decoration:none; text-decoration-color:black;}
       h1,h2,h3 {color:white}
-      body{background-color:#7f8fa6;
-      background-image: url('finn.png');}
+      body{background-color:#7f8fa6;}
+      div.first{background-image: url('finn.png'); height:2000px;
+      background-attachment: fixed;
+      background-size:28%;
+      background-position:top;
+      background-origin: content-box;}
+
+      nav ul li {list-style-type:none;
+      display: inline-block; color:white;
+      margin:20px;
+      align-items: center;>
 
 </style>
 </head>
-<header>
-<h1 class="center";> 🎨 시작해보자 캐스케이딩 스타일 시트 CSS3 </h1>
-<hr><br>
-</header>
 
 <body>
+<header>
+<h1 class="center";> 🎨 CSS3 연습장 </h1>
+<hr>
+<nav>
+<ul>
+<li> 다람쥐 </li>
+<li> 야옹이 </li>
+<li> 코린이 </li>
+</ul>
+</nav>
 
-<div class="bg1">
+</header>
 <br>
-<div style="text-align:center;">
-<button style= "background-color: #e84118; display:inline-block;"> <a href="past.html"> 페이지 이동 </a>
+
+<div class="first">
+    <div style="text-align:center;">
+    <button style= "background-color: #e84118; display:inline-block;"> <a href="past.html"> 페이지 이동 </a>
+    </div>
 </div>
 
-</div>
+
+
 </body>
 </html>
