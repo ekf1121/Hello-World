@@ -14,11 +14,23 @@
       background-size:28%;
       background-position:top;
       background-origin: content-box;}
-
       nav ul li {list-style-type:none;
       display: inline-block; color:white;
       margin:20px;
       align-items: center;>}
+      .lsp {animation: rotate_image 6s linear infinite;
+    transform-origin: 50% 50%; display: block; margin: 0px auto}
+
+      .lsp:hover {
+        animation: rotate_image_and_scale 4s ease infinite;
+      transform-origin: 50% 50% }
+
+    @keyframes rotate_image{
+	100% {transform: rotate(360deg);}}
+    @keyframes rotate_image_and_scale {
+      100% {transform: rotate(360deg) scale(2);; }
+    }
+
 </style>
 </head>
 
@@ -41,8 +53,8 @@
     <div style="text-align:center;">
     <button style= "background-color: #e84118; display:inline-block;"> <a href="past.html"> 페이지 이동 </a>
     </div>
+    <img class="lsp"; src="rsp.png" alt="울룩불룩공주"; width="30%">
 
-<img src="rsp.png" alt="울룩불룩공주" width="50%";>
 </div>
 
 
